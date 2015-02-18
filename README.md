@@ -10,7 +10,9 @@
 
 ## Usage
 
-Try to right click at GitHub repository page, so you can find `Copy Repo` on context menu.
+Right click at GitHub repository page, so you can find `Copy Repo` on context menu.
+
+Tap the menu then copy repository name like `Sixeight/copyrepo` to clipboard.
 
 ## Contributing
 
