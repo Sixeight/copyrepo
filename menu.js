@@ -1,7 +1,7 @@
 
 chrome.contextMenus.create({
   "type"     : "normal",
-  "title"    : "Copy Repo",
+  "title"    : "copyrepo",
   "contexts" : ["page"],
   "onclick"  : copyRepoName,
   "documentUrlPatterns" : ["https://github.com/*/*"]
