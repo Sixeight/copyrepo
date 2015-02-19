@@ -10,7 +10,7 @@
   chrome.contextMenus.create({
     "parentId" : parentId,
     "type"     : "normal",
-    "title"    : "Name",
+    "title"    : "name",
     "contexts" : ["page"],
     "onclick"  : copyRepoName,
     "documentUrlPatterns" : ["https://github.com/*/*"]
