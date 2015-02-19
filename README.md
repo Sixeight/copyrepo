@@ -12,7 +12,10 @@
 
 Right click at GitHub repository page, so you can find `copyrepo` on context menu.
 
-Tap the menu then copy repository name like `Sixeight/copyrepo` to clipboard.
+|Name|Description|
+|:--|:--|
+|Name|Copy repository name like `Sixeight/copyrepo` to clipboard.|
+|URL|Copy repository URL like `https://github.com/Sixeight/copyrepo.git` to clipboard.|
 
 ## Contributing
 
@@ -21,4 +24,3 @@ Tap the menu then copy repository name like `Sixeight/copyrepo` to clipboard.
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
-
