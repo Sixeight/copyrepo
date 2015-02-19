@@ -10,9 +10,8 @@ chrome.contextMenus.create({
 function copyRepoName(info) {
   var url = info.pageUrl;
   var parts = url.split("/");
-  var repo = parts.pop();
-  var userName = parts.pop();
-  var repoName = userName + "/" + repo;
+  var index = parts.indexOf("github.com") + 1;
+  var repoName = parts.splice(index, 2).join("/");
   var textArea = document.createElement("textarea");
   textArea.style.cssText = "visibility: none;";
   document.body.appendChild(textArea);
